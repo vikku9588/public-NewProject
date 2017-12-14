@@ -1,0 +1,22 @@
+1. Gerrit is used to code review, its an added advantage over git.
+2. Data is stored in the form of a stream of snapshots.
+3. git config --list (It is used to config developer with username and useremail, so that it can be track with that name )
+   git config--global user.name "Vivek Parmar" and git config--global user.email "Vivek.Parmar@accenture.com"
+4. git clone path (it will clone the repository)
+5. git branch -b branch_name ( to create new branch )
+6. git merge branch_name ( branch_name was merge to master repository, but it will commit we need to run git push command to be reflected in master repository)
+7. git push --set-upstream origin branch_name ( it will push the branch to the remote repository )
+8. git add . ( it will add all the file to the local repository ) or git add filename (specific to one file )
+9. git commit -m "commit message" ( to commit the file )
+10. git commit -a -m "message" ( it will added the file and commit it with the message)
+11. git init ( it is used to initialize the git , it will create .git file )
+12. git status ( this is was used to check which all file has been add and commit it to local repository )
+13. git log ( to check the log file , which show all the commit and the comment )
+14. git remote -v ( to show the origin and destination path )
+15. git remote add origin/destination ( it will add origin/destination  origin mean get the code from one repository and commmiting and pushing the change to other repository that is destination ) 
+16. git grep ( it show a pattern )
+17. git show (show various types of object ) 
+18. git reset --hard checksum_value ( it revert to the previous version of commit)
+19. git branch ( show all the branches in the repo )
+20. git diff ( it show difference between the two branches )
+21. git rebase ( i have made some change and commit in one branch and want this changes to be reflect in other branch for that it was used, it won't work with content rebase )
