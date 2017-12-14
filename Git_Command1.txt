@@ -20,3 +20,4 @@
 19. git branch ( show all the branches in the repo )
 20. git diff ( it show difference between the two branches )
 21. git rebase ( i have made some change and commit in one branch and want this changes to be reflect in other branch for that it was used, it won't work with content rebase )
+22. git push -u ( Next tie it wont ask for the username and password
