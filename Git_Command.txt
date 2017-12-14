@@ -1,0 +1,11 @@
+1. Gerrit is used to code review, its an added advantage over git.
+2. Data is stored in the form of a stream of snapshots.
+3. git config --list (It is used to config developer with username and useremail, so that it can be track with that name )
+   git config--global user.name "Vivek Parmar" and git config--global user.email "Vivek.Parmar@accenture.com"
+4. git clone path (it will clone the repository)
+5. git branch -b branch_name ( to create new branch )
+6. git merge branch_name ( branch_name was merge to master repository, but it will commit we need to run git push command to be reflected in master repository)
+7. git push --set-upstream origin branch_name ( it will push the branch to the remote repository )
+8. git add . ( it will add all the file to the local repository ) or git add filename (specific to one file )
+9. git commit -m "commit message" ( to commit the file )
+10. git commit -a -m "message" ( it will added the file and commit it with the message)
